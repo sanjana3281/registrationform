@@ -4,7 +4,6 @@ $(document).ready(function () {
         const lname = $("#lname").val();
         const email = $("#email").val();
         const phone = $("#phone").val();
-        const address = $("#address").val();
 
         if (!fname || !lname || !email || !phone) {
             alert("All fields are required!");

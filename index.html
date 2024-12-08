@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animated Login & Registration Form | Codehal</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="form-wrapper sign-in"  id="registration-form">
+      <form  action="submit.php" method="POST">
+        <h2>Registration</h2>
+        <div class="input-group">
+          <input type="text"  id="fname" name="fname" required>
+          <label for="">FIRST NAME</label>
+        </div>
+        <div class="input-group">
+          <input type="text" id="lname" name="lname" required>
+          <label for="">LAST NAME</label>
+        </div>
+        <div class="input-group">
+          <input type="email" id="email" name="email" required>
+          <label for="">Email</label>
+        </div>
+        <div class="input-group">
+          <input type="tel" id="phone" name="phone" required>
+          <label for="">Phone Number</label>
+        </div>
+        <div class="remember">
+          <label><input type="checkbox"> Remember me</label>
+        </div>
+        <button type="submit">Login</button>
+      </form>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html
